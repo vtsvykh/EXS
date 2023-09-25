@@ -5,6 +5,14 @@
 
 text = input()
 word = text.split()
+
+short_word = min(word, key=len)
+
+print(len(short_word))
+
+'''
+text = input()
+word = text.split()
 D = []
 
 for i in range(len(word)):
@@ -13,11 +21,5 @@ for i in range(len(word)):
 len = min(D)
 
 print(len)
+'''
 
-'''
-text = input()
-word = text.split()
-d = 
-shortest_word = min(word)
-print(shortest_word)
-'''
